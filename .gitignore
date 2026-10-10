@@ -1,0 +1,27 @@
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+.DS_Store
+
+# Local MLflow state
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlruns/
+
+# Generated model artifacts
+models/
+mlartifacts/
