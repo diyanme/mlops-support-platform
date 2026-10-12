@@ -736,13 +736,8 @@ Never expose credentials, tokens, or sensitive customer information in the repos
 
 ---
 
-## 17. How to Present This Project in an Interview
 
-A concise explanation:
-
-"I built an MLOps support platform that trains and tracks a customer-churn model using MLflow, serves predictions through FastAPI, and packages the application using Docker. I configured GitHub Actions to run tests, build the image, and publish it to GitHub Container Registry. I also implemented Prometheus metrics, a Grafana dashboard, drift detection, and Kubernetes deployment using Helm. I tested the main components locally and verified the CI pipeline."
-
-Be prepared to explain:
+After doing this project Be prepared to explain:
 
 1. How the model is trained and registered.
 2. How the API loads the champion model.
@@ -758,11 +753,3 @@ Be prepared to explain:
 **Be clear about the difference between a portfolio implementation and professional production experience.**
 
 ---
-
-## Final Recommendation
-
-The core project is complete for a junior DevOps/MLOps Support portfolio.
-
-Do not keep adding tools just to make the project larger.
-
-Focus on understanding the architecture, practising troubleshooting, and explaining the decisions you made.
